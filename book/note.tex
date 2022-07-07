@@ -2,8 +2,8 @@
 
 \usepackage{mathtools}
 
-\title{Bayes's theorem and logistic regression}
-\author{Allen B. Downey}
+\title{نظرية بايز Bayes's theorem والانحدار اللوجستي logistic regression}
+\author{ الان ب. دوني Allen B. Downey}
 
 \newcommand{\logit}{\mathrm{logit}}
 \renewcommand{\P}{\mathrm{P}}
@@ -25,46 +25,34 @@
 \maketitle
 
 \begin{abstract}
-My two favorite topics in probability and statistics are
-Bayes's theorem and logistic regression.  Because there are
-similarities between them, I have always assumed that there is
-a connection.  In this note, I demonstrate the
-connection mathematically, and (I hope) shed light on the
-motivation for logistic regression and the interpretation of
-the results.
+الموضوعان المفضلان لدي في الاحصاء والاحتمالات هما
+نظرية بايز والانحدار اللوجستي. لأن هناك
+أوجه تشابه بينهما ، لطالما افترضت أن هناك
+اتصال. في هذه المذكرة ، أوضح
+الاتصال رياضيًا ، و (آمل) إلقاء الضوء على
+الدافع للانحدار اللوجستي وتفسير
+النتائج.
 \end{abstract}
 
 
-\section{Bayes's theorem}
+\section{نظرية بايز Bayes's theorem}
 
-I'll start by reviewing Bayes's theorem, using an example that came up
-when I was in grad school.  I signed up for a class on Theory of
-Computation.  On the first day of class, I was the first to arrive.  A
-few minutes later, another student arrived.  Because I was expecting
-most students in an advanced computer science class to be male, I was
-mildly surprised that the other student was female.  Another female
-student arrived a few minutes later, which was sufficiently
-surprising that I started to think I was in the wrong room.  When
-another female student arrived, I was confident I was in the wrong
-place (and it turned out I was).
+سأبدأ بمراجعة نظرية بايز ، باستخدام مثال ظهر عندما كنت في مدرسة الدراسات العليا. لقد قمت بالتسجيل في فصل دراسي حول نظرية
+الحساب Theory of
+Computation.في اليوم الأول من الفصل ، كنت أول من وصل. بعد بضع دقائق ، وصل طالب آخر. نظرًا لأنني كنت أتوقع أن يكون معظم الطلاب في فصل علوم الكمبيوتر المتقدم من الذكور ، فقد فوجئت بشكل طفيف بأن الطالب الأخر كان أنثى. وصلت طالبة أخرى بعد بضع دقائق ، وكان ذلك مفاجئًا لدرجة أنني بدأت أعتقد أنني كنت في الغرفة الخطأ. عندما وصلت طالبة أخرى ، كنت واثقة من أنني في المكان الخطأ (واتضح أنني كنت في المكان الخطأ).
 
-As each student arrived, I used the observed data to update my
-belief that I was in the right place.  We can use Bayes's theorem to
-quantify the calculation I was doing intuitively.
+عند وصول كل طالب ، استخدمت البيانات المرصودة لتحديث اعتقادي بأنني في المكان المناسب. يمكننا استخدام نظرية بايز لتحديد الحساب الذي كنت أقوم به بشكل حدسي.
 
-I'll us $H$ to represent the hypothesis that I was in the right
-room, and $F$ to represent the observation that the first other
-student was female.  Bayes's theorem provides an algorithm for
-updating the probability of $H$:
+ساستخدم $H$ لتمثيل فرضية انني في الغرفة الصحيحة،
+و $F$ لتمثيل المشاهدة ان الطالب الاخر انثي. تقدم نظرية بايز خوارزمية لتحديث احتمال $H$:
 
 \[ \P(H|F) = \P(H)~\frac{\P(F|H)}{P(F)}\]
 
-Where
+حيث
 
 \begin{itemize}
 
-\item $\P(H)$ is the prior probability of $H$ before the other
-student arrived.
+\item $\P(H)$ هي الاحتمال السابق لـ $H$ قبل وصول الطالب الاخر.
 
 \item $\P(H|F)$ is the posterior probability of $H$, updated based
 on the observation $F$.
