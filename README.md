@@ -1,32 +1,22 @@
-ThinkStats2
+التفكير الاحصائي ThinkStats2
 ===========
 
-[Order *Think Stats* from Amazon.com](http://amzn.to/1ljRCJH).
+[اطلب *التفكير الاحصائي* من امازون (انجليزي)] (http://amzn.to/1ljRCJH).
 
-[Download this book in PDF](http://greenteapress.com/thinkstats2/thinkstats2.pdf).
+[تنزيل نسخة pdf] (http://greenteapress.com/thinkstats2/thinkstats2.pdf).
+[قراءة الكتاب من الانترنت] (http://greenteapress.com/thinkstats2/html/index.html).
+[المدونة المصاحبة لالن دوي ](https://www.allendowney.com/blog/).
+*التفكير الاحصائي* عبارة عن مقدمة للاحصاء وعلوم البيانات لمبرمجي بيثون.
+لو لديك المهارات الاساسية في بيثون فيمكنك استخدامها لتعلم مفاهيم الاحصاء والاحتمالات للتعامل مع البيانات.
+* يركز الكتاب على التقنيات البسيطة التي يمكن استخدامها لاستكشاف مجموعة بيانات حقيقية والاجابة عن الاسئلة المثيرة للاهتمام.
+* يتضمن حالات دراسية باستخدام مجموعة بيانات المعهد القومي للصحة ومجموعات بيانات من مصادر اخري
+* تستخدم العديد من التمارين برامج قصيرة لتشغيل التجربة ةمساعدة القراء علي تنمية الفهم
 
-[Read this book online](http://greenteapress.com/thinkstats2/html/index.html).
-
-[Read the related blog, *Probably Overthinking It*](https://www.allendowney.com/blog/).
-
-
-*Think Stats* is an introduction to Statistics and Data Science for Python programmers.
-If you have basic skills in Python, you can use them to learn concepts in probability and statistics and practical skills for working with data.
-
-* This book emphasizes simple techniques you can use to explore real data sets and answer interesting questions. 
-
-* It includes case studies using datasets from the National Institutes of Health and other sources.
-
-* Many of the exercises use short programs to run experiments and help readers develop understanding.
-
-This book is available under a Creative Commons license, which means that you are free to copy, distribute, and modify it, as long as you attribute the source and don’t use it for commercial purposes.
-
-## Working with the code
-
-The easiest way to work with this code it to run it on Colab, which is a
-free service that runs Jupyter notebooks in a web browser.
-For every chapter, I provide two notebooks: one contains the code from the
-chapter and the exercises; the other also contains the solutions.
+الكتاب متاح تحت رخصة المشاع الابداعي العامة، ما يعني ان بامكانك نسخه وتوزيعه وتعديله مجانا، مادمت تشير لمصدره ولا تستخدمه استخداما تجاريا
+## التعامل مع الاكواد
+اسهل طريقة للتعامل مع هذه الاكواد هي تشغيلها علي قوقل قولاب Colab، وهو عبارة عن نسخة مجانية من دفتر جوبيتر يعمل علي متصفح الويب.
+قدمت في كل فصل دفترين: يحوي الاول الاكواد 
+من الفصل والتمارين، بينما يحوي التاني الحلول.
 
 * Chapter 1: [Notebook](https://colab.research.google.com/github/AllenDowney/ThinkStats2/blob/master/code/chap01ex.ipynb) [Notebook with solutions](https://colab.research.google.com/github/AllenDowney/ThinkStats2/blob/master/solutions/chap01soln.ipynb)
 
