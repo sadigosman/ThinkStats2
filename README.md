@@ -1,10 +1,10 @@
 التفكير الاحصائي ThinkStats2
 ===========
 
-[اطلب *التفكير الاحصائي* من امازون (انجليزي)](http://amzn.to/1ljRCJH).
-[تنزيل نسخة pdf](http://greenteapress.com/thinkstats2/thinkstats2.pdf).
-[قراءة الكتاب من الانترنت](http://greenteapress.com/thinkstats2/html/index.html).
-[المدونة المصاحبة لالن دوي ](https://www.allendowney.com/blog/).
+[اطلب *التفكير الاحصائي* من امازون (انجليزي)](http://amzn.to/1ljRCJH).  
+[تنزيل نسخة pdf](http://greenteapress.com/thinkstats2/thinkstats2.pdf).  
+[قراءة الكتاب من الانترنت](http://greenteapress.com/thinkstats2/html/index.html).  
+[المدونة المصاحبة لالن دوي ](https://www.allendowney.com/blog/).  
 
 *التفكير الاحصائي* عبارة عن مقدمة للاحصاء وعلوم البيانات لمبرمجي بيثون.
 لو لديك المهارات الاساسية في بيثون فيمكنك استخدامها لتعلم مفاهيم الاحصاء والاحتمالات للتعامل مع البيانات.
